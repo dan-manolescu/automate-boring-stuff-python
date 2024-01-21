@@ -11,7 +11,7 @@ else:
     timeLeft = int(sys.argv[1])
 
 while timeLeft > 0:
-    print(timeLeft, end='')
+    print(timeLeft, end='', flush=True)
     time.sleep(1)
     timeLeft -= 1
 
